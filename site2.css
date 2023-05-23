@@ -1,0 +1,32 @@
+    html, body{
+        margin: 0;
+        padding: 0;
+    }
+
+    .header{
+        background-color: darkgrey;
+        padding: 8px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-family: roboto; sans-serif;
+    }
+
+    .logo {
+        width: 80px;
+    }
+
+    .menu li{
+        display: inline;
+        margin: 0 8px;
+        cursor: pointer;
+    }
+    @media(max-width: 376px){
+        .header{
+            color: red;
+            flex-direction: column;
+            flex-direction: row-reverse;
+            <image:bottom:display: ;;
+        }
+    }
+    
